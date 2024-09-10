@@ -1,1 +1,6 @@
-# programing_n_prototype
+fname = input
+lname = input
+
+fname = input("what is your first name?")
+lname = input("what is your last name?")
+print ("Hi how are you " + fname, lname + "?"
