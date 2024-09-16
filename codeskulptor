@@ -1,0 +1,9 @@
+jerelyn isles 9/16/2024
+
+
+fname=input(" what is your first name?")
+lname=input(" what is your last name?")
+howold=input( "how old are you?")
+howlongeating=input(" for how log have you been eating")
+
+print ( fname + lname + howold + howlongeating)
