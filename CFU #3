@@ -1,0 +1,16 @@
+fname = input("please give me your first name")
+lname = input("please give me your last name")
+num1 = int(input("please enter a whole number"))
+num2 = float(input("please enter a decimal number"))
+print("nice to meet you " + fname, lname)
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+modulos = num1 % num2
+print("lets do some math with these numbers you have me.")
+print("the addition of " + str(num1) +" and " + str(num2) + " " + "is "+ str(addition))
+print("the subtraction of " + str(num1) +" and " + str(num2) + " " + "is "+ str(subtraction))
+print("the multiplication of " + str(num1) +" and " + str(num2) + " " + "is "+ str(multiplication))
+print("the division of " + str(num1) +" and " + str(num2) + " " + "is "+ str(division))
+print("the modulos of " + str(num1) +" and " + str(num2) + " " + "is "+ str(modulos))
