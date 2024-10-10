@@ -1,0 +1,18 @@
+#10/10/2024
+#jerelyn islesthe sum of your three numbers is:<built-in function sum>
+#CFU 7
+
+num1 = int(input("give me your first number: "))
+num2 = int(input("give me you second number: "))
+num3 = int(input("give me your last number: "))
+
+def calc_sum(num1, num2, num3): 
+    sum = num1+ num2+ num3
+print ("The sum of your three numbers is: "+ str(sum))
+
+def average3(num1,num2,num3):
+    avg = num1+ num2+ num3
+    print ("The average of your three numbers is: "+ str(avg ))
+    
+calc_sum(num1, num2, num3)
+average3(num1,num2,num3)
