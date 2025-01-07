@@ -1,0 +1,11 @@
+names=["Jerelyn","Mally","Kary"]
+age=["12","16","24","67"]
+groceries=["eggs", "apples","milk","bead"]
+print(groceries[0])
+print(names[0]+" is "+ str( age[0])+" years old")
+groceries=["eggs", "apples","milk","bead"]
+print(groceries[0:3])
+FoodList = ["candy","sugar","twix"]
+for i in range(len(names)):
+    print("my friend "+ names[i] + "is"+ str(age[i]) + "years old")
+    
